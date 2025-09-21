@@ -20,7 +20,6 @@ int numberOfWrongAnswer = 0;
 void shuffleTheListOfQuestions() {
   numberOfQuestionList.shuffle();
   questionNumber = numberOfQuestionList[0];
-  //print(numberOfQuestionList);
 }
 
 void getQuestion() {
@@ -64,7 +63,6 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  //List<Padding> answerResult = [];
   bool showThumbs = false;
 
   void verifyAnswer(bool userPickedAnswer) {
